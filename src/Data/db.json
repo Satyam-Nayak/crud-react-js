@@ -1,4 +1,5 @@
-[
+{
+    "user":[
     {
         "id":1,
         "name":"John",
@@ -26,5 +27,5 @@
         "age":30,
         "email":"jhon@gmail.com",
         "phone": "1234567890"
-    }
-]
+    }]
+}
