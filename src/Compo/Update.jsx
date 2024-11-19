@@ -36,34 +36,19 @@ function Update() {
         <form onSubmit={handleUpdate}>
           <div className="mb-2">
             <label htmlFor="name">Name:</label>
-            <input
-              type="text"
-              name="name"
-              className="form-control"
-              placeholder="Enter Name"
-              value={values.name}
+            <input type="text" name="name" className="form-control" placeholder="Enter Name" value={values.name}
               onChange={(e) => setValues({ ...values, name: e.target.value })}
             />
           </div>
           <div className="mb-2">
             <label htmlFor="email">Email:</label>
-            <input
-              type="email"
-              name="email"
-              className="form-control"
-              placeholder="Enter Email"
-              value={values.email}
+            <input type="email" name="email" className="form-control" placeholder="Enter Email" value={values.email}
               onChange={(e) => setValues({ ...values, email: e.target.value })}
             />
           </div>
           <div className="mb-2">
             <label htmlFor="phone">Phone:</label>
-            <input
-              type="text"
-              name="phone"
-              className="form-control"
-              placeholder="Enter Phone Number"
-              value={values.phone}
+            <input type="text" name="phone" className="form-control" placeholder="Enter Phone Number" value={values.phone}
               onChange={(e) => setValues({ ...values, phone: e.target.value })}
             />
           </div>
@@ -74,5 +59,4 @@ function Update() {
     </div>
   );
 }
-
 export default Update;
